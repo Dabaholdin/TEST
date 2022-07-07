@@ -1,0 +1,167 @@
+.order {
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.order:last-of-type {
+    margin-bottom: 0;
+}
+
+.order .orderHeader {
+    border-bottom: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3a405f;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    transition: background-color .3s linear;
+}
+
+.order .orderHeader:hover {
+    background: rgba(247, 248, 250, .5);
+}
+
+.order .orderHeader.active {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.order .orderHeader:after {
+    content: url("/svg/arrow.svg");
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    top: 0;
+    align-items: center;
+    display: flex;
+}
+
+.order .orderHeader.active:after {
+    transform: rotate(180deg);
+}
+
+.packageBtn:last-of-type {
+    margin-right: 0;
+}
+
+.order .orderHeader a {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3a405f;
+}
+
+.order .orderHeader a:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background: #f44a0e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.btn {
+    text-decoration-line: underline;
+    margin-bottom: 0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.documents {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-top: 1px solid #ebebeb;
+}
+
+.documents .btn {
+    position: relative;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #b4b6bd;
+}
+
+.documents .btn svg {
+    margin-right: 5px;
+    width: 22px;
+    height: 22px;
+}
+
+.orderTotal {
+    margin-bottom: 10px;
+}
+
+.total {
+    padding: 25px 32px 32px;
+}
+
+.orderTotal:last-of-type {
+    margin-bottom: 0;
+}
+
+.orderTotal span b {
+    font-weight: 600;
+}
+
+.orderTotal span {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A405F;
+}
+
+.orderTotal span:first-of-type {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A405F;
+    margin-right: 25px;
+    display: inline-block;
+    min-width: 180px;
+}
+
+@media (max-width: 992px) {
+    .documents {
+        padding: 15px;
+    }
+
+    .total {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .documents {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .documents .btn:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .order .orderHeader {
+        flex-direction: column;
+    }
+
+    .order .orderHeader a {
+        margin-bottom: 10px;
+    }
+
+    .orderTotal span {
+        display: block !important;
+    }
+
+    .orderTotal span:first-of-type {
+        margin: 0 0 5px;
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "orderStatuses": {
+        "orderCreated": "Создан",
+        "orderConfirmed": "Подтвержден",
+        "orderInProduction": "Находится в производстве",
+        "orderReadyForSent": "Готов к отгрузке",
+        "orderSentToTheCarrier": "Отправлен грузоперевозчику",
+        "orderDeliveredToTheCarrier": "Доставлен грузоперевозчику",
+        "orderInTransit": "В транзите",
+        "orderArrivedAtCustoms": "Прибыл на таможню",
+        "orderRelease": "Выпуск",
+        "orderInStock": "На складе",
+        "orderCanceled": "Отменен",
+        "orderRefunded": "Возврат оплаты",
+        "orderCompleted": "Завершен"
+    },
+    "paymentStatuses": {
+        "paymentAwaiting": "Ожидает оплаты",
+        "paymentPrepaymentMade": "Сделана предоплата",
+        "paymentPaidFor": "Оплачен на",
+        "paymentPaidInFull": "Оплачен полностью",
+        "paymentAwaitingRefund": "Ожидает возврата оплаты",
+        "paymentRefunded": "Оплата возвращена"
+    },
+    "containerStatuses": {
+        "containerAssemble": "Собирается",
+        "containerInTransit": "В транзите",
+        "containerArrivedAtCustoms": "Прибыл на таможню",
+        "containerRelease": "Выпуск",
+        "containerInStock": "На складе"
+    }
+}

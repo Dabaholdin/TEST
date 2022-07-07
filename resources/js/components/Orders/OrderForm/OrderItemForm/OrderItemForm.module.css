@@ -1,0 +1,115 @@
+.form {
+    border: 1px solid #f44a0e;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+.hr {
+    border: 0;
+    border-top: 1px solid #ebebeb;
+    margin: 0 0 36px;
+}
+
+.formFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formFooter > div {
+    width: 50%;
+}
+
+.formFooter > div:first-of-type {
+    padding-right: 30px;
+}
+
+.formFooter > div:last-of-type {
+    padding-left: 15px;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #949599;
+}
+
+.submitPrice {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3A405F;
+    margin-right: 26px;
+}
+
+.submitPrice span {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #3A405F;
+    margin-left: 10px;
+}
+
+.provider {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #949599;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1199px) {
+
+    .formFooter > div {
+        width: auto;
+    }
+
+    .submitPrice {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .form {
+        padding: 15px;
+    }
+
+    .formFooter {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .formFooter > div:first-of-type {
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .formFooter > div:last-of-type {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .submitPrice {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .formFooter > div:last-of-type {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

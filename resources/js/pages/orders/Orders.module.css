@@ -1,0 +1,26 @@
+h2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.orderStatus {
+    border-radius: 100px;
+    padding: 4px 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.notFound {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #949599;
+    margin-top: 25px;
+}
+
+.notFound span {
+    cursor: pointer;
+    color: #f44a0e;
+}

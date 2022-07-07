@@ -1,0 +1,82 @@
+.placeholder {
+
+}
+
+.placeholder img {
+    margin-right: 28px;
+}
+
+.placeholderBody > div {
+    align-self: center;
+}
+
+.placeholderBody {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.placeholder .title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 26px;
+}
+
+.placeholderAdd {
+    background: #FFFFFF;
+    border: 1px solid #f44a0e;
+    color: #f44a0e;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px;
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.placeholderAdd:hover {
+    color: #f44a0e;
+}
+
+.placeholderAdd svg {
+    margin-right: 15px;
+}
+
+.placeholder .description {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    max-width: 370px;
+}
+
+@media (max-width: 767px) {
+    .placeholder img {
+        margin: 0 auto 15px;
+    }
+
+    .placeholderBody {
+        padding: 0 30px;
+        justify-content: center;
+    }
+
+    .placeholder .title {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .placeholder .description {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .placeholderAdd {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+}

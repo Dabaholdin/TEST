@@ -1,0 +1,69 @@
+.invoiceBtnBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -6px;
+}
+
+.invoiceBtnBlock .invoiceBtn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 25%;
+    max-width: 120px;
+    min-height: 110px;
+    margin: 0 6px;
+    padding: 0 !important;
+    border: 0;
+    border-radius: 15px;
+    background: #F7F8FA;
+    transition: all .3s linear;
+}
+
+.invoiceBtnBlock .invoiceBtn svg {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    width: 56px;
+    height: 59px;
+    transform: translateY(-50%);
+}
+
+.invoiceBtnBlock .invoiceBtn svg path {
+    transition: fill .3s ease-in-out;
+}
+
+.invoiceBtnBlock .invoiceBtn span {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+    padding: 4px 7px;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-color);
+    background: #F7F8FA;
+    transition: color .3s ease-in-out;
+}
+
+.invoiceBtnBlock .invoiceBtn:hover svg path {
+    fill: var(--orange);
+}
+
+.invoiceBtnBlock .invoiceBtn:hover span {
+    color: var(--orange);
+}
+
+
+@media (max-width: 767px) {
+
+    .invoiceBtnBlock {
+        flex-wrap: wrap;
+    }
+
+    .invoiceBtnBlock .invoiceBtn {
+        flex: 0 0 50%;
+        margin-bottom: 12px;
+    }
+}

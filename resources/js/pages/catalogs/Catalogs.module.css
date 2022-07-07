@@ -1,0 +1,13 @@
+h2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.catalogStatus {
+    border-radius: 100px;
+    padding: 4px 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}

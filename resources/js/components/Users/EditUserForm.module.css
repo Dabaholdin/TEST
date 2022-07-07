@@ -1,0 +1,32 @@
+.btns {
+    display: flex;
+}
+
+.btns button:first-child {
+    margin: 0 15px 0 0;
+}
+
+.delete {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BDBDBD !important;
+}
+
+.delete svg {
+    margin-right: 10px;
+}
+
+@media (max-width: 575px) {
+    .btns {
+        flex-direction: column;
+    }
+
+    .btns button {
+        width: 100% !important;
+    }
+
+    .btns button:first-child {
+        margin: 0 0 15px;
+    }
+}

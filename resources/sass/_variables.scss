@@ -1,0 +1,37 @@
+// Body
+$body-bg: #f8fafc;
+
+:root {
+    --main-color: #3a3d61;
+    --dark-color: #3a3d61;
+    --grey-color: #F7F8FA;
+    --red-color: #F87266;
+    --blue: #1B53F4;
+    --indigo: #6574cd;
+    --purple: #9561e2;
+    --pink: #f66d9b;
+    --red: #e3342f;
+    --orange: #f44a0e !important;
+    --yellow: #ffed4a;
+    --green: #38c172;
+    --teal: #4dc0b5;
+    --cyan: #6cb2eb;
+    --white: #fff;
+    --gray: #949599 !important;
+    --gray-dark: #626262;
+    --primary: #3a3d61;
+    --secondary: #6c757d;
+    --success: #38c172;
+    --info: #6cb2eb;
+    --warning: #ffed4a;
+    --danger: #e3342f;
+    --light: #c8ccd7 !important;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: 'Montserrat', sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

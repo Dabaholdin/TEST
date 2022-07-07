@@ -1,0 +1,85 @@
+.list {
+    overflow-x: hidden;
+}
+
+.date {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B4B6BD;
+    margin-right: 35px;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A405F;
+}
+
+.paymentHistory p {
+    margin-bottom: 8px;
+}
+
+.paymentHistory p:last-of-type {
+    margin-bottom: 20px;
+}
+
+.payment {
+    padding: 15px 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.payment:last-of-type {
+    margin-bottom: 15px;
+}
+
+.payment span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3A405F;
+}
+
+.payment {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #B4B6BD;
+}
+
+.paymentHistory .empty {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #3A405F;
+    padding-top: 13px;
+    margin-bottom: 0;
+}
+
+.icons svg {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.icons svg path {
+    transition: 145ms ease-in-out;
+}
+
+.icons svg:hover path {
+    fill: #EB5E28;
+}
+
+.icons .edit path {
+    fill: #3A405F;
+}
+
+.icons .delete path {
+    fill: #BDBDBD;
+}
+
+.icons svg:last-of-type {
+    margin-right: 0;
+}

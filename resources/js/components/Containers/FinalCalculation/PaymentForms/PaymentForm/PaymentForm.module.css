@@ -1,0 +1,92 @@
+.title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EB5E28;
+    margin-bottom: 9px;
+}
+
+.block {
+    margin-bottom: 5px;
+}
+
+.block p {
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A405F;
+}
+
+.block p.cny {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A405F;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.cnyBlock {
+    margin: 10px 0;
+}
+
+.total {
+    margin-bottom: 20px;
+}
+
+.total p {
+    margin-bottom: 10px;
+}
+
+.total p:last-of-type {
+    margin-bottom: 0;
+}
+
+.total span {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A405F;
+}
+
+.total span b {
+    font-weight: 600;
+}
+
+.total span:first-of-type {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A405F;
+    margin-right: 25px;
+    display: inline-block;
+    min-width: 160px;
+}
+
+.footer {
+    padding-top: 20px;
+    border-top: 1px solid #EBEBEB;
+}
+
+.footer button {
+    width: 100% !important;
+}
+
+@media (max-width: 992px) {
+    .footer button:first-of-type {
+        margin-bottom: 10px;
+    }
+
+    .block p {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .total span {
+        display: block;
+        margin: 5px 0;
+    }
+}
